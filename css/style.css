@@ -77,8 +77,8 @@ ul .menu{
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
 }
 
 /*-------------------------------------main */
@@ -97,14 +97,14 @@ main .logo{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    height: 92px;
-    width: 272px;
-    margin-bottom: 20px;
+    height: 125px;
+    width: 550px;
+    margin-bottom: 1.4%;
 }
 
 main form {
     width: 30%;
-    height: 40px;
+    height: 4.7%;
     text-align: center;
     display: flex;
 }
@@ -114,6 +114,8 @@ main form input{
     width: 80%;
     border-style: solid;
     border-width: 0.1px 0px 0.1px 0px;
+    border-color: rgb(218, 218, 218);
+    outline: none
 }
 
 
@@ -124,24 +126,28 @@ main form .search{
     border-radius: 20px 0 0 20px;
     border-style: solid;
     border-width: 0.1px 0px 0.1px 0.1px;
-    line-height: 140%;
-    font-size: 30px;
+    border-color: rgb(218, 218, 218);
+    line-height: 40px;
+    font-size: 25px;
+    color: rgb(218, 218, 218);
 }
 
-main form a{
+main form .voice{
     display: block;
     height: 100%;
     width: 10%;
     border-radius: 0px 20px 20px 0px;
     border-style: solid;
     border-width: 0.1px 0.1px 0.1px 0px;
+    border-color: rgb(218, 218, 218);
+    cursor: pointer;
 }
 
 main .butons{
     width: 40%;
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 1%;
 }
 
 main .butons button{
@@ -149,6 +155,7 @@ main .butons button{
     padding: 10px;
     border-style: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 /*-------------------------------------footer */
 footer{
